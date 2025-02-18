@@ -72,7 +72,7 @@ public class Main {
                 System.out.println("What is the index of the task to remove?");
                 try {
                     toRemove = input.nextInt();
-                    if (toRemove < 0 | toRemove > 6) {
+                    if (toRemove < 0 | toRemove > tasks.size() - 1) {
                         System.out.println("Invalid input for index!");
                     }
                 } catch (Exception e) {
