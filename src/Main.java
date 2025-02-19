@@ -93,7 +93,7 @@ public class Main {
                 System.out.println("What is the index of the task to change?");
                 try {
                     index = input.nextInt();
-                    if (index < 0 | index > 6) {
+                    if (index < 0 | index > tasks.size() - 1) {
                         System.out.println("Invalid input for index!");
                     }
                 } catch (Exception e) {
